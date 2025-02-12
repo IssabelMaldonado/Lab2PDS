@@ -1,6 +1,7 @@
 # Laboratorio 2 de procesamiento digital de señales
+
 ## Introducción:
-El procesamiento de señales emplea herramientas clave para su análisis y manipulación. La convolución modela la interacción entre una señal y un sistema , la correlación mide la similitud entre señales, y la transformada permite su estudio en el dominio de la frecuencia. Acá encontramos la manera correcta de emplear todo esto en la aplicación de Python ayudandonos así a entender de manera más profunda el tema
+El procesamiento de señales emplea herramientas clave para su análisis y manipulación. La convolución modela la interacción entre una señal y un sistema , la correlación mide la similitud entre señales, y la transformada permite su estudio en el dominio de la frecuencia. La finalidad de este repositorio es emplear los conceptos mencionados para ejemplificarlos mediante una interfaz de python, analizando como cada operación afecta a una señal.
 
 ## Requerimientos:
 - Interfaz de python (para este caso 3.12)
