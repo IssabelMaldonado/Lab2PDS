@@ -1,6 +1,7 @@
-# Laboratorio 2 de procesamiento digital de señales
+# Laboratorio 2 PDS 
 ## Introducción:
-El procesamiento de señales emplea herramientas clave para su análisis y manipulación. La convolución modela la interacción entre una señal y un sistema , la correlación mide la similitud entre señales, y la transformada permite su estudio en el dominio de la frecuencia. Acá encontramos la manera correcta de emplear todo esto en la aplicación de Python ayudandonos así a entender de manera más profunda el tema
+
+El procesamiento de señales utiliza herramientas clave como la convolución, que modela la interacción entre una señal y un sistema; la correlación, que mide la similitud entre señales; y la transformada, que permite analizar las señales en el dominio de la frecuencia. Estas técnicas, implementadas en Python, facilitan un análisis más profundo y práctico del tema
 
 ## Requerimientos:
 - Interfaz de python (para este caso 3.12)
@@ -8,9 +9,25 @@ El procesamiento de señales emplea herramientas clave para su análisis y manip
 - Matplotlib
 - Scipy.io
 - Scipy.interpolate
+- time
+- IPython.display
 
 ##  Convolución:
-Es una operación matemática que combina dos señales para obtener una tercera, representando cómo una afecta a la otra, en python se representó de la siguiente manera con los valores solicitados en la guía: 
+
+La convolución es una operación que muestra cómo una señal interactúa con un sistema. En procesamiento de señales, se usa para calcular la salida de un sistema cuando se le aplica una entrada, ayudando a entender cómo el sistema afecta a la señal.
+
+Para esta práctica, se implementaron dos métodos de convolución. El primero fue calculado y escrito a mano, como se muestra a continuación:
+
+  ![Imagen de WhatsApp 2025-02-11 a las 19 24 51_da4792f8](https://github.com/user-attachments/assets/e19b8b4d-c752-4f82-bbfa-cdf2b0420f06)
+Dentro de esta imagen se puede observar el calculo de la convolución de dos formas, como una multiplicación de polinomios y como una multiplicación en forma de tabla, ambas operaciones llegaron al mismo resultado, además en la parte final se encuentran las gráficas de la señal y del sistema respectivaente.
+
+
+
+
+
+
+
+En python se representó de la siguiente manera con los valores solicitados en la guía: 
 
 ```bash
  
